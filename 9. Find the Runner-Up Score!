@@ -1,0 +1,22 @@
+#9. Find the Runner-Up Score!
+
+#Given the participants' score sheet for your University Sports Day, you are required to find the runner-up score. You are given n scores. 
+#Store them in a list and find the score of the runner-up.
+
+# solution   ==>
+
+'''
+
+n = int(input()) # size of the scores array
+
+    arr = map(int, input().split())  #getting input from the user
+
+    set_list = list(set(arr))    # creating a list varaible which holds only unique values which is achieved by using set() function 
+    max_num = max(set_list)      # finding maximum number from the array
+    
+    set_list.remove(max_num)     # now, removing the max number from the list
+    
+    second_max_num = max(set_list)    # now, again finding the max number
+    print(second_max_num)             # printing the second max number
+
+'''
