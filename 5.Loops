@@ -1,0 +1,13 @@
+#5.Python Loops
+
+https://www.hackerrank.com/challenges/python-loops/problem
+.
+#The provided code stub reads and integer,n, from STDIN. For all non-negative integers i<n , print i*i
+
+#solution
+'''
+n = int(input())
+    for i in range(n):
+        print(i*i)
+        i=i+1
+'''
