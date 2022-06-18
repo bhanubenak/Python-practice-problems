@@ -1,5 +1,7 @@
 # Python practice-problems
-here u can find solutions for some python problems from LeetCode and Hackerrank. I'll try to upload as much as problems.
+Hello there,
 
-if anyone finds best or optimised solution then add ur solution by creating branch in it.
+This repo contans few python problems with solutions from LeetCode and HackerRank. I'll try to upload as many I can😊.
+
+if you find any another best or optimised solution then add ur solution by creating branch in this repo.
                                                                     thank you🤗
